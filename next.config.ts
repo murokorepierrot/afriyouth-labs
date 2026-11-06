@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    unoptimized: true, // Ibi bituma idakenera ya sharp yari yanze kuri Vercel
+  },
 };
 
 export default nextConfig;
